@@ -16,7 +16,7 @@ spec:
         app: nginx-deploy
     spec:
       containers:
-      - image: nginx
+      - image: fnajmul/nginx-custom:8
         name: nginx-container
         ports:
         - containerPort: 80
